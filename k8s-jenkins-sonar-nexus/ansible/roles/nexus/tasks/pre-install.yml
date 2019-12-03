@@ -50,7 +50,7 @@
                 values:
                 - "{{ VOLUME_HOST }}"
         capacity:
-          storage: 4Gi
+          storage: 20Gi
         accessModes:
         - ReadWriteOnce
         persistentVolumeReclaimPolicy: Retain
